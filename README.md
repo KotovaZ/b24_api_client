@@ -67,7 +67,7 @@ while (!iterator.isDone()) {
 
 // запрос следующей партии
 if (companyRes.hasNextPage()) {
-  const res = companyRes.nextPage(); 
+  const res = await companyRes.nextPage(); 
 }
 ````
 
