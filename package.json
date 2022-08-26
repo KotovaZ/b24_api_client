@@ -1,6 +1,6 @@
 {
   "name": "bx24client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitrix24 API client",
   "main": "dev/index.ts",
   "scripts": {
