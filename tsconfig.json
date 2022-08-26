@@ -1,4 +1,4 @@
-origin
+{
   "compilerOptions": {
     "outDir": "./dist",
     "noImplicitAny": true,

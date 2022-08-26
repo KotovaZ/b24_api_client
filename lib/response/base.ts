@@ -11,7 +11,7 @@ export class ResponseBase implements IResponse{
     protected _error: string;
 
     public isSuccess() {
-        return this._status === 200 && !!this._error;
+        return this._status === 200 && !this._error;
     }
 
     public getData() {
