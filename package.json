@@ -1,9 +1,11 @@
 {
   "name": "bx24client",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Bitrix24 API client",
-  "main": "index.ts",
+  "main": "dist/b24.js",
+  "types": "dist/b24.d.ts",
   "scripts": {
+    "build": "tsc"
   },
   "author": "Basil Tatarnikov",
   "license": "ISC",
@@ -14,6 +16,11 @@
   "dependencies": {
     "@types/node-fetch": "^2.6.2",
     "node-fetch": "^2.6.7"
+  },
+  "exports": {
+    "./b24": "./lib/b24.ts",
+    "./connector": "./lib/connector/connector.ts",
+    "./package.json": "./package.json"
   },
   "homepage": "https://github.com/KotovaZ/b24_api_client"
 }
